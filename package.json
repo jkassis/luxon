@@ -1,6 +1,6 @@
 {
-  "name": "luxon",
-  "version": "1.25.0",
+  "name": "@jkassis/luxon",
+  "version": "1.25.1",
   "description": "Immutable date wrapper",
   "author": "Isaac Cambron",
   "keywords": [
@@ -72,7 +72,6 @@
   },
   "main": "build/node/luxon.js",
   "module": "src/luxon.js",
-  "browser": "build/cjs-browser/luxon.js",
   "jsdelivr": "build/global/luxon.min.js",
   "unpkg": "build/global/luxon.min.js",
   "engines": {
