@@ -1,6 +1,6 @@
 {
   "name": "@jkassis/luxon",
-  "version": "1.25.1",
+  "version": "1.25.2",
   "description": "Immutable date wrapper",
   "author": "Isaac Cambron",
   "keywords": [
