@@ -1,5 +1,5 @@
 import DateTime from "./datetime.js";
-import Duration from "./duration.js";
+import { Duration, msPer } from "./duration.js";
 import Interval from "./interval.js";
 import Info from "./info.js";
 import Zone from "./zone.js";
@@ -12,15 +12,16 @@ import Settings from "./settings.js";
 const VERSION = "1.25.0";
 
 export {
-  VERSION,
   DateTime,
   Duration,
-  Interval,
-  Info,
-  Zone,
   FixedOffsetZone,
   IANAZone,
+  Info,
+  Interval,
   InvalidZone,
   LocalZone,
-  Settings
+  Settings,
+  VERSION,
+  Zone,
+  msPer
 };

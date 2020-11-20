@@ -15,6 +15,14 @@ import Settings from "./settings.js";
 
 const INVALID = "Invalid Duration";
 
+export var msPer = {
+  second: 1000,
+  minute: 60 * 1000,
+  hour: 60 * 60 * 1000,
+  day: 24 * 60 * 60 * 1000,
+  week: 7 * 24 * 60 * 60 * 1000
+};
+
 // unit conversion constants
 const lowOrderMatrix = {
     weeks: {
@@ -170,7 +178,7 @@ function normalizeValues(matrix, vals) {
  *
  * There's are more methods documented below. In addition, for more information on subtler topics like internationalization and validity, see the external documentation.
  */
-export default class Duration {
+export class Duration {
   /**
    * @private
    */
