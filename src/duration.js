@@ -178,7 +178,7 @@ function normalizeValues(matrix, vals) {
  *
  * There's are more methods documented below. In addition, for more information on subtler topics like internationalization and validity, see the external documentation.
  */
-export class Duration {
+export default class Duration {
   /**
    * @private
    */

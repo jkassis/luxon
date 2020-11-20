@@ -1,5 +1,5 @@
 import DateTime from "./datetime.js";
-import { Duration, msPer } from "./duration.js";
+import Duration, { msPer } from "./duration.js";
 import Interval from "./interval.js";
 import Info from "./info.js";
 import Zone from "./zone.js";
